@@ -1,0 +1,331 @@
+[
+  {
+    "name": "Form#sanitize",
+    "filePath": "src/Form.js",
+    "lines": [
+      {
+        "lineNumber": 229,
+        "line": "  /**\r"
+      },
+      {
+        "lineNumber": 230,
+        "line": "   * Sanitize an html string.\r"
+      },
+      {
+        "lineNumber": 231,
+        "line": "   *\r"
+      },
+      {
+        "lineNumber": 232,
+        "line": "   * @param string\r"
+      },
+      {
+        "lineNumber": 233,
+        "line": "   * @returns {*}\r"
+      },
+      {
+        "lineNumber": 234,
+        "line": "   */\r"
+      },
+      {
+        "lineNumber": 235,
+        "line": "  sanitize(dirty, forceSanitize) {\r"
+      }
+    ],
+    "codeParams": [
+      "dirty",
+      "forceSanitize"
+    ],
+    "docParams": [
+      "string"
+    ]
+  },
+  {
+    "name": "checkInvalidDate",
+    "filePath": "src/utils/calendarUtils.js",
+    "lines": [
+      {
+        "lineNumber": 71,
+        "line": "/**\r"
+      },
+      {
+        "lineNumber": 72,
+        "line": " * Checks the entered date for validity.\r"
+      },
+      {
+        "lineNumber": 73,
+        "line": " *\r"
+      },
+      {
+        "lineNumber": 74,
+        "line": " * @param {String} value\r"
+      },
+      {
+        "lineNumber": 75,
+        "line": " *   The value to check.\r"
+      },
+      {
+        "lineNumber": 76,
+        "line": " * @param {[String]} format\r"
+      },
+      {
+        "lineNumber": 77,
+        "line": " *   A moment formats.\r"
+      },
+      {
+        "lineNumber": 78,
+        "line": " * @param {Date} maxDate\r"
+      },
+      {
+        "lineNumber": 79,
+        "line": " *   The max date.\r"
+      },
+      {
+        "lineNumber": 80,
+        "line": " * @param {Date} minDate\r"
+      },
+      {
+        "lineNumber": 81,
+        "line": " *   The min date.\r"
+      },
+      {
+        "lineNumber": 82,
+        "line": " * * @return {{message: string, result: boolean}}\r"
+      },
+      {
+        "lineNumber": 83,
+        "line": " */\r"
+      },
+      {
+        "lineNumber": 84,
+        "line": "export function checkInvalidDate(value, format, minDate, maxDate) {\r"
+      }
+    ],
+    "codeParams": [
+      "value",
+      "format",
+      "minDate",
+      "maxDate"
+    ],
+    "docParams": [
+      "value",
+      "format",
+      "maxDate",
+      "minDate"
+    ]
+  },
+  {
+    "name": "eachComponent",
+    "filePath": "src/utils/formUtils.js",
+    "lines": [
+      {
+        "lineNumber": 32,
+        "line": "/**\r"
+      },
+      {
+        "lineNumber": 33,
+        "line": " * Iterate through each component within a form.\r"
+      },
+      {
+        "lineNumber": 34,
+        "line": " *\r"
+      },
+      {
+        "lineNumber": 35,
+        "line": " * @param {Object} components\r"
+      },
+      {
+        "lineNumber": 36,
+        "line": " *   The components to iterate.\r"
+      },
+      {
+        "lineNumber": 37,
+        "line": " * @param {Function} fn\r"
+      },
+      {
+        "lineNumber": 38,
+        "line": " *   The iteration function to invoke for each component.\r"
+      },
+      {
+        "lineNumber": 39,
+        "line": " * @param {Boolean} includeAll\r"
+      },
+      {
+        "lineNumber": 40,
+        "line": " *   Whether or not to include layout components.\r"
+      },
+      {
+        "lineNumber": 41,
+        "line": " * @param {String} path\r"
+      },
+      {
+        "lineNumber": 42,
+        "line": " *   The current data path of the element. Example: data.user.firstName\r"
+      },
+      {
+        "lineNumber": 43,
+        "line": " * @param {Object} parent\r"
+      },
+      {
+        "lineNumber": 44,
+        "line": " *   The parent object.\r"
+      },
+      {
+        "lineNumber": 45,
+        "line": " */\r"
+      },
+      {
+        "lineNumber": 46,
+        "line": "export function eachComponent(components, fn, includeAll, path, parent, inRecursion) {\r"
+      }
+    ],
+    "codeParams": [
+      "components",
+      "fn",
+      "includeAll",
+      "path",
+      "parent",
+      "inRecursion"
+    ],
+    "docParams": [
+      "components",
+      "fn",
+      "includeAll",
+      "path",
+      "parent"
+    ]
+  },
+  {
+    "name": "getComponent",
+    "filePath": "src/utils/formUtils.js",
+    "lines": [
+      {
+        "lineNumber": 151,
+        "line": "/**\r"
+      },
+      {
+        "lineNumber": 152,
+        "line": " * Get a component by its key\r"
+      },
+      {
+        "lineNumber": 153,
+        "line": " *\r"
+      },
+      {
+        "lineNumber": 154,
+        "line": " * @param {Object} components\r"
+      },
+      {
+        "lineNumber": 155,
+        "line": " *   The components to iterate.\r"
+      },
+      {
+        "lineNumber": 156,
+        "line": " * @param {String|Object} key\r"
+      },
+      {
+        "lineNumber": 157,
+        "line": " *   The key of the component to get, or a query of the component to search.\r"
+      },
+      {
+        "lineNumber": 158,
+        "line": " *\r"
+      },
+      {
+        "lineNumber": 159,
+        "line": " * @returns {Object}\r"
+      },
+      {
+        "lineNumber": 160,
+        "line": " *   The component that matches the given key, or undefined if not found.\r"
+      },
+      {
+        "lineNumber": 161,
+        "line": " */\r"
+      },
+      {
+        "lineNumber": 162,
+        "line": "export function getComponent(components, key, includeAll) {\r"
+      }
+    ],
+    "codeParams": [
+      "components",
+      "key",
+      "includeAll"
+    ],
+    "docParams": [
+      "components",
+      "key"
+    ]
+  },
+  {
+    "name": "findComponent",
+    "filePath": "src/utils/formUtils.js",
+    "lines": [
+      {
+        "lineNumber": 202,
+        "line": "/**\r"
+      },
+      {
+        "lineNumber": 203,
+        "line": " * This function will find a component in a form and return the component AND THE PATH to the component in the form.\r"
+      },
+      {
+        "lineNumber": 204,
+        "line": " * Path to the component is stored as an array of nested components and their indexes.The Path is being filled recursively\r"
+      },
+      {
+        "lineNumber": 205,
+        "line": " * when you iterating through the nested structure.\r"
+      },
+      {
+        "lineNumber": 206,
+        "line": " * If the component is not found the callback won't be called and function won't return anything.\r"
+      },
+      {
+        "lineNumber": 207,
+        "line": " *\r"
+      },
+      {
+        "lineNumber": 208,
+        "line": " * @param components\r"
+      },
+      {
+        "lineNumber": 209,
+        "line": " * @param key\r"
+      },
+      {
+        "lineNumber": 210,
+        "line": " * @param fn\r"
+      },
+      {
+        "lineNumber": 211,
+        "line": " * @param path\r"
+      },
+      {
+        "lineNumber": 212,
+        "line": " * @returns {*}\r"
+      },
+      {
+        "lineNumber": 213,
+        "line": " */\r"
+      },
+      {
+        "lineNumber": 214,
+        "line": "export function findComponent(components, key, path, fn) {\r"
+      }
+    ],
+    "codeParams": [
+      "components",
+      "key",
+      "path",
+      "fn"
+    ],
+    "docParams": [
+      "components",
+      "key",
+      "fn",
+      "path"
+    ]
+  }
+]
