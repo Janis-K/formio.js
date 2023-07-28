@@ -1,6 +1,6 @@
 {
-  "coverage": "6.3%",
-  "expectCount": 1031,
+  "coverage": "6.26%",
+  "expectCount": 1037,
   "actualCount": 65,
   "files": {
     "src/addons/FormioAddon.js": {
@@ -353,6 +353,18 @@
         65,
         86,
         90
+      ]
+    },
+    "src/components/names/Name.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        6,
+        8,
+        11,
+        18,
+        29
       ]
     },
     "src/components/number/Number.form.js": {

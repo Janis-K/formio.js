@@ -444,6 +444,12 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
+    "formiojs/src/components/names/name.js~namecomponent",
+    "class/src/components/names/Name.js~NameComponent.html",
+    "<span>NameComponent</span> <span class=\"search-result-import-path\">formiojs/src/components/names/Name.js</span>",
+    "class"
+  ],
+  [
     "formiojs/src/components/_classes/nested/nestedcomponent.form.js~nestedcomponent",
     "function/index.html#static-function-NestedComponent",
     "<span>NestedComponent</span> <span class=\"search-result-import-path\">formiojs/src/components/_classes/nested/NestedComponent.form.js</span>",
@@ -4474,6 +4480,42 @@ window.esdocSearchIndex = [
     "file/src/components/index.js.html",
     "src/components/index.js",
     "file"
+  ],
+  [
+    "src/components/names/name.js",
+    "file/src/components/names/Name.js.html",
+    "src/components/names/Name.js",
+    "file"
+  ],
+  [
+    "src/components/names/name.js~namecomponent#checks",
+    "class/src/components/names/Name.js~NameComponent.html#instance-member-checks",
+    "src/components/names/Name.js~NameComponent#checks",
+    "member"
+  ],
+  [
+    "src/components/names/name.js~namecomponent#constructor",
+    "class/src/components/names/Name.js~NameComponent.html#instance-constructor-constructor",
+    "src/components/names/Name.js~NameComponent#constructor",
+    "method"
+  ],
+  [
+    "src/components/names/name.js~namecomponent#setvalue",
+    "class/src/components/names/Name.js~NameComponent.html#instance-method-setValue",
+    "src/components/names/Name.js~NameComponent#setValue",
+    "method"
+  ],
+  [
+    "src/components/names/name.js~namecomponent.builderinfo",
+    "class/src/components/names/Name.js~NameComponent.html#static-method-builderInfo",
+    "src/components/names/Name.js~NameComponent.builderInfo",
+    "method"
+  ],
+  [
+    "src/components/names/name.js~namecomponent.schema",
+    "class/src/components/names/Name.js~NameComponent.html#static-method-schema",
+    "src/components/names/Name.js~NameComponent.schema",
+    "method"
   ],
   [
     "src/components/number/number.form.js",
