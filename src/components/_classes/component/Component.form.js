@@ -19,43 +19,50 @@ export default function(...extend) {
           label: 'Display',
           key: 'display',
           weight: 0,
-          components: ComponentEditDisplay
+          components: ComponentEditDisplay,
+          show: true
         },
         {
           label: 'Data',
           key: 'data',
           weight: 10,
-          components: ComponentEditData
+          components: ComponentEditData,
+          show: true
         },
         {
           label: 'Validation',
           key: 'validation',
           weight: 20,
-          components: ComponentEditValidation
+          components: ComponentEditValidation,
+          show: false
         },
         {
           label: 'API',
           key: 'api',
           weight: 30,
-          components: ComponentEditAPI
+          components: ComponentEditAPI,
+          show: false
         },
         {
           label: 'Conditional',
           key: 'conditional',
           weight: 40,
-          components: ComponentEditConditional
+          components: ComponentEditConditional,
+          show: false
         },
         {
           label: 'Logic',
           key: 'logic',
           weight: 50,
-          components: ComponentEditLogic
+          components: ComponentEditLogic,
+          show: false
         },
         {
           label: 'Layout',
           key: 'layout',
           weight: 60,
-          components: ComponentEditLayout
+          components: ComponentEditLayout,
+          show: true
         },
       ]
     }
@@ -64,6 +71,9 @@ export default function(...extend) {
     key: 'tabs',
     components: _.cloneDeep(items),
   })));
+
+  components[0].components = components[0].components.filter(tab => tab.show);
+
   return {
     components: _.unionWith(components, EditFormUtils.unifyComponents).concat({
       type: 'hidden',
