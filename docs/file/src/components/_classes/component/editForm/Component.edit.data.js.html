@@ -199,7 +199,8 @@ export default [
     label: &apos;Multiple Values&apos;,
     tooltip: &apos;Allows multiple values to be entered for this field.&apos;,
     key: &apos;multiple&apos;,
-    input: true
+    input: true,
+    show: true
   },
   {
     type: &apos;textfield&apos;,
@@ -208,7 +209,8 @@ export default [
     weight: 5,
     placeholder: &apos;Default Value&apos;,
     tooltip: &apos;The Default Value will be the value for this field, before user interaction. Having a default value will override the placeholder text.&apos;,
-    input: true
+    input: true,
+    show: true
   },
   {
     weight: 30,
@@ -223,7 +225,8 @@ export default [
       { label: &apos;None&apos;, value: false },
       { label: &apos;Server&apos;, value: true },
       { label: &apos;Client&apos;, value: &apos;client-only&apos; },
-    ]
+    ],
+    show: true
   },
   {
     weight: 150,
@@ -231,7 +234,8 @@ export default [
     label: &apos;Protected&apos;,
     tooltip: &apos;A protected field will not be returned when queried via API.&apos;,
     key: &apos;protected&apos;,
-    input: true
+    input: true,
+    show: true
   },
   {
     type: &apos;checkbox&apos;,
@@ -239,7 +243,8 @@ export default [
     weight: 200,
     key: &apos;dbIndex&apos;,
     label: &apos;Database Index&apos;,
-    tooltip: &apos;Set this field as an index within the database. Increases performance for submission queries.&apos;
+    tooltip: &apos;Set this field as an index within the database. Increases performance for submission queries.&apos;,
+    show: false
   },
   {
     weight: 400,
@@ -287,7 +292,8 @@ export default [
           }
         ]
       }
-    ]
+    ],
+    show: true
   },
   {
     type: &apos;select&apos;,
@@ -316,6 +322,7 @@ export default [
     conditional: {
       json: { &apos;!&apos; : [{ var: &apos;data.dataSrc&apos; }] },
     },
+    show: true
   },
   {
     weight: 700,
@@ -324,7 +331,8 @@ export default [
     key: &apos;clearOnHide&apos;,
     defaultValue: true,
     tooltip: &apos;When a field is hidden, clear the value.&apos;,
-    input: true
+    input: true,
+    show: true
   },
   EditFormUtils.javaScriptValue(&apos;Custom Default Value&apos;, &apos;customDefaultValue&apos;, &apos;customDefaultValue&apos;, 1000,
     &apos;&lt;p&gt;&lt;h4&gt;Example:&lt;/h4&gt;&lt;pre&gt;value = data.firstName + &quot; &quot; + data.lastName;&lt;/pre&gt;&lt;/p&gt;&apos;,
@@ -341,7 +349,8 @@ export default [
     weight: 1100,
     key: &apos;calculateServer&apos;,
     label: &apos;Calculate Value on server&apos;,
-    tooltip: &apos;Checking this will run the calculation on the server. This is useful if you wish to override the values submitted with the calculations performed on the server.&apos;
+    tooltip: &apos;Checking this will run the calculation on the server. This is useful if you wish to override the values submitted with the calculations performed on the server.&apos;,
+    show: true
   },
   {
     type: &apos;checkbox&apos;,
@@ -349,7 +358,8 @@ export default [
     weight: 1200,
     key: &apos;allowCalculateOverride&apos;,
     label: &apos;Allow Manual Override of Calculated Value&apos;,
-    tooltip: &apos;When checked, this will allow the user to manually override the calculated value.&apos;
+    tooltip: &apos;When checked, this will allow the user to manually override the calculated value.&apos;,
+    show: true
   },
 ];
 /* eslint-enable max-len */

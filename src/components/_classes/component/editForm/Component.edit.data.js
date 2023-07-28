@@ -7,7 +7,8 @@ export default [
     label: 'Multiple Values',
     tooltip: 'Allows multiple values to be entered for this field.',
     key: 'multiple',
-    input: true
+    input: true,
+    show: true
   },
   {
     type: 'textfield',
@@ -16,7 +17,8 @@ export default [
     weight: 5,
     placeholder: 'Default Value',
     tooltip: 'The Default Value will be the value for this field, before user interaction. Having a default value will override the placeholder text.',
-    input: true
+    input: true,
+    show: true
   },
   {
     weight: 30,
@@ -31,7 +33,8 @@ export default [
       { label: 'None', value: false },
       { label: 'Server', value: true },
       { label: 'Client', value: 'client-only' },
-    ]
+    ],
+    show: true
   },
   {
     weight: 150,
@@ -39,7 +42,8 @@ export default [
     label: 'Protected',
     tooltip: 'A protected field will not be returned when queried via API.',
     key: 'protected',
-    input: true
+    input: true,
+    show: true
   },
   {
     type: 'checkbox',
@@ -47,7 +51,8 @@ export default [
     weight: 200,
     key: 'dbIndex',
     label: 'Database Index',
-    tooltip: 'Set this field as an index within the database. Increases performance for submission queries.'
+    tooltip: 'Set this field as an index within the database. Increases performance for submission queries.',
+    show: false
   },
   {
     weight: 400,
@@ -95,7 +100,8 @@ export default [
           }
         ]
       }
-    ]
+    ],
+    show: true
   },
   {
     type: 'select',
@@ -124,6 +130,7 @@ export default [
     conditional: {
       json: { '!' : [{ var: 'data.dataSrc' }] },
     },
+    show: true
   },
   {
     weight: 700,
@@ -132,7 +139,8 @@ export default [
     key: 'clearOnHide',
     defaultValue: true,
     tooltip: 'When a field is hidden, clear the value.',
-    input: true
+    input: true,
+    show: true
   },
   EditFormUtils.javaScriptValue('Custom Default Value', 'customDefaultValue', 'customDefaultValue', 1000,
     '<p><h4>Example:</h4><pre>value = data.firstName + " " + data.lastName;</pre></p>',
@@ -149,7 +157,8 @@ export default [
     weight: 1100,
     key: 'calculateServer',
     label: 'Calculate Value on server',
-    tooltip: 'Checking this will run the calculation on the server. This is useful if you wish to override the values submitted with the calculations performed on the server.'
+    tooltip: 'Checking this will run the calculation on the server. This is useful if you wish to override the values submitted with the calculations performed on the server.',
+    show: true
   },
   {
     type: 'checkbox',
@@ -157,7 +166,8 @@ export default [
     weight: 1200,
     key: 'allowCalculateOverride',
     label: 'Allow Manual Override of Calculated Value',
-    tooltip: 'When checked, this will allow the user to manually override the calculated value.'
+    tooltip: 'When checked, this will allow the user to manually override the calculated value.',
+    show: true
   },
 ];
 /* eslint-enable max-len */

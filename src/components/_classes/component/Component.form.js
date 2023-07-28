@@ -26,7 +26,7 @@ export default function(...extend) {
           label: 'Data',
           key: 'data',
           weight: 10,
-          components: ComponentEditData,
+          components: ComponentEditData.filter(component => component.show),
           show: true
         },
         {
