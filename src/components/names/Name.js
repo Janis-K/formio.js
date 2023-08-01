@@ -27,16 +27,6 @@ export default class NameComponent extends Input {
   }
 
   setValue(value, flags) {
-    fetch('https://localhost:44367/mock/test', {
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    })
-      .then(response => response.json())
-      .then(data => value = data)
-      .catch((error) => {
-        console.error('Error:', error);
-      });
+    value = 'Jānis Kacēns';
   }
 }

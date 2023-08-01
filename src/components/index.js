@@ -46,7 +46,6 @@ import TreeComponent from './tree/Tree';
 import UnknownComponent from './unknown/Unknown';
 import UrlComponent from './url/Url';
 import WellComponent from './well/Well';
-import NameComponent from './names/Name';
 
 export default {
   address: AddressComponent,
@@ -97,6 +96,5 @@ export default {
   tree: TreeComponent,
   unknown: UnknownComponent,
   url: UrlComponent,
-  well: WellComponent,
-  name: NameComponent
+  well: WellComponent
 };
