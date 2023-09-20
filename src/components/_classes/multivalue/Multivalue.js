@@ -210,6 +210,7 @@ export default class Multivalue extends Field {
 
           if (this.checkComponentValidity()) {
             this.updateComponentValue(this.refs.input[0].value);
+            // eslint-disable-next-line no-unused-vars
             submitBtnDisabled = false;
           }
         });

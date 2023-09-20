@@ -47,6 +47,16 @@ import UnknownComponent from './unknown/Unknown';
 import UrlComponent from './url/Url';
 import WellComponent from './well/Well';
 
+import AuthorizedPersonFirstNameComponent from './latviaComponents/authorizedPersonFirstName/AuthorizedPersonFirstName';
+import AuthorizedPersonLastNameComponent from './latviaComponents/authorizedPersonLastName/AuthorizedPersonLastName';
+import AuthorizedPersonPersonalCodeComponent from './latviaComponents/authorizedPersonPersonalCode/AuthorizedPersonPersonalCode';
+import AuthorizedPersonAddressComponent from './latviaComponents/authorizedPersonAddress/AuthorizedPersonAddress';
+import AuthorizedPersonBankAccountComponent from './latviaComponents/authorizedPersonBankAccount/AuthorizedPersonBankAccount';
+import AuthorizedPersonEmailComponent from './latviaComponents/authorizedPersonEmail/AuthorizedPersonEmail';
+import AuthorizedPersonPhoneComponent from './latviaComponents/authorizedPersonPhoneNumber/AuthorizedPersonPhone';
+import LegalPersonNameComponent from './latviaComponents/legalPersonName/LegalPersonName';
+import LegalPersonRegNumberComponent from './latviaComponents/legalPersonRegNumber/LegalPersonRegNumber';
+
 export default {
   address: AddressComponent,
   base: Component,
@@ -97,4 +107,13 @@ export default {
   unknown: UnknownComponent,
   url: UrlComponent,
   well: WellComponent,
+  authorizedPersonFirstName: AuthorizedPersonFirstNameComponent,
+  authorizedPersonLastName: AuthorizedPersonLastNameComponent,
+  authorizedPersonPersonalCode: AuthorizedPersonPersonalCodeComponent,
+  authorizedPersonAddress: AuthorizedPersonAddressComponent,
+  authorizedPersonBankAccount: AuthorizedPersonBankAccountComponent,
+  authorizedPersonEmail: AuthorizedPersonEmailComponent,
+  authorizedPersonPhone: AuthorizedPersonPhoneComponent,
+  legalPersonName: LegalPersonNameComponent,
+  legalPersonRegNumber: LegalPersonRegNumberComponent
 };

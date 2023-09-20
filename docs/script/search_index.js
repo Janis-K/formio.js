@@ -12,6 +12,90 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
+    "formiojs/src/components/latviacomponents/authorizedpersonaddress/authorizedpersonaddress.form.js~authorizedpersonaddress",
+    "function/index.html#static-function-AuthorizedPersonAddress",
+    "<span>AuthorizedPersonAddress</span> <span class=\"search-result-import-path\">formiojs/src/components/latviaComponents/authorizedPersonAddress/AuthorizedPersonAddress.form.js</span>",
+    "function"
+  ],
+  [
+    "formiojs/src/components/latviacomponents/authorizedpersonaddress/authorizedpersonaddress.js~authorizedpersonaddresscomponent",
+    "class/src/components/latviaComponents/authorizedPersonAddress/AuthorizedPersonAddress.js~AuthorizedPersonAddressComponent.html",
+    "<span>AuthorizedPersonAddressComponent</span> <span class=\"search-result-import-path\">formiojs/src/components/latviaComponents/authorizedPersonAddress/AuthorizedPersonAddress.js</span>",
+    "class"
+  ],
+  [
+    "formiojs/src/components/latviacomponents/authorizedpersonbankaccount/authorizedpersonbankaccount.form.js~authorizedpersonbankaccount",
+    "function/index.html#static-function-AuthorizedPersonBankAccount",
+    "<span>AuthorizedPersonBankAccount</span> <span class=\"search-result-import-path\">formiojs/src/components/latviaComponents/authorizedPersonBankAccount/AuthorizedPersonBankAccount.form.js</span>",
+    "function"
+  ],
+  [
+    "formiojs/src/components/latviacomponents/authorizedpersonbankaccount/authorizedpersonbankaccount.js~authorizedpersonbankaccountcomponent",
+    "class/src/components/latviaComponents/authorizedPersonBankAccount/AuthorizedPersonBankAccount.js~AuthorizedPersonBankAccountComponent.html",
+    "<span>AuthorizedPersonBankAccountComponent</span> <span class=\"search-result-import-path\">formiojs/src/components/latviaComponents/authorizedPersonBankAccount/AuthorizedPersonBankAccount.js</span>",
+    "class"
+  ],
+  [
+    "formiojs/src/components/latviacomponents/authorizedpersonemail/authorizedpersonemail.form.js~authorizedpersonemail",
+    "function/index.html#static-function-AuthorizedPersonEmail",
+    "<span>AuthorizedPersonEmail</span> <span class=\"search-result-import-path\">formiojs/src/components/latviaComponents/authorizedPersonEmail/AuthorizedPersonEmail.form.js</span>",
+    "function"
+  ],
+  [
+    "formiojs/src/components/latviacomponents/authorizedpersonemail/authorizedpersonemail.js~authorizedpersonemailcomponent",
+    "class/src/components/latviaComponents/authorizedPersonEmail/AuthorizedPersonEmail.js~AuthorizedPersonEmailComponent.html",
+    "<span>AuthorizedPersonEmailComponent</span> <span class=\"search-result-import-path\">formiojs/src/components/latviaComponents/authorizedPersonEmail/AuthorizedPersonEmail.js</span>",
+    "class"
+  ],
+  [
+    "formiojs/src/components/latviacomponents/authorizedpersonfirstname/authorizedpersonfirstname.form.js~authorizedpersonfirstname",
+    "function/index.html#static-function-AuthorizedPersonFirstName",
+    "<span>AuthorizedPersonFirstName</span> <span class=\"search-result-import-path\">formiojs/src/components/latviaComponents/authorizedPersonFirstName/AuthorizedPersonFirstName.form.js</span>",
+    "function"
+  ],
+  [
+    "formiojs/src/components/latviacomponents/authorizedpersonfirstname/authorizedpersonfirstname.js~authorizedpersonfirstnamecomponent",
+    "class/src/components/latviaComponents/authorizedPersonFirstName/AuthorizedPersonFirstName.js~AuthorizedPersonFirstNameComponent.html",
+    "<span>AuthorizedPersonFirstNameComponent</span> <span class=\"search-result-import-path\">formiojs/src/components/latviaComponents/authorizedPersonFirstName/AuthorizedPersonFirstName.js</span>",
+    "class"
+  ],
+  [
+    "formiojs/src/components/latviacomponents/authorizedpersonlastname/authorizedpersonlastname.form.js~authorizedpersonlastname",
+    "function/index.html#static-function-AuthorizedPersonLastName",
+    "<span>AuthorizedPersonLastName</span> <span class=\"search-result-import-path\">formiojs/src/components/latviaComponents/authorizedPersonLastName/AuthorizedPersonLastName.form.js</span>",
+    "function"
+  ],
+  [
+    "formiojs/src/components/latviacomponents/authorizedpersonlastname/authorizedpersonlastname.js~authorizedpersonlastnamecomponent",
+    "class/src/components/latviaComponents/authorizedPersonLastName/AuthorizedPersonLastName.js~AuthorizedPersonLastNameComponent.html",
+    "<span>AuthorizedPersonLastNameComponent</span> <span class=\"search-result-import-path\">formiojs/src/components/latviaComponents/authorizedPersonLastName/AuthorizedPersonLastName.js</span>",
+    "class"
+  ],
+  [
+    "formiojs/src/components/latviacomponents/authorizedpersonpersonalcode/authorizedpersonpersonalcode.form.js~authorizedpersonpersonalcode",
+    "function/index.html#static-function-AuthorizedPersonPersonalCode",
+    "<span>AuthorizedPersonPersonalCode</span> <span class=\"search-result-import-path\">formiojs/src/components/latviaComponents/authorizedPersonPersonalCode/AuthorizedPersonPersonalCode.form.js</span>",
+    "function"
+  ],
+  [
+    "formiojs/src/components/latviacomponents/authorizedpersonpersonalcode/authorizedpersonpersonalcode.js~authorizedpersonpersonalcodecomponent",
+    "class/src/components/latviaComponents/authorizedPersonPersonalCode/AuthorizedPersonPersonalCode.js~AuthorizedPersonPersonalCodeComponent.html",
+    "<span>AuthorizedPersonPersonalCodeComponent</span> <span class=\"search-result-import-path\">formiojs/src/components/latviaComponents/authorizedPersonPersonalCode/AuthorizedPersonPersonalCode.js</span>",
+    "class"
+  ],
+  [
+    "formiojs/src/components/latviacomponents/authorizedpersonphonenumber/authorizedpersonphone.form.js~authorizedpersonphone",
+    "function/index.html#static-function-AuthorizedPersonPhone",
+    "<span>AuthorizedPersonPhone</span> <span class=\"search-result-import-path\">formiojs/src/components/latviaComponents/authorizedPersonPhoneNumber/AuthorizedPersonPhone.form.js</span>",
+    "function"
+  ],
+  [
+    "formiojs/src/components/latviacomponents/authorizedpersonphonenumber/authorizedpersonphone.js~authorizedpersonphonecomponent",
+    "class/src/components/latviaComponents/authorizedPersonPhoneNumber/AuthorizedPersonPhone.js~AuthorizedPersonPhoneComponent.html",
+    "<span>AuthorizedPersonPhoneComponent</span> <span class=\"search-result-import-path\">formiojs/src/components/latviaComponents/authorizedPersonPhoneNumber/AuthorizedPersonPhone.js</span>",
+    "class"
+  ],
+  [
     "formiojs/src/providers/address/azureaddressprovider.js~azureaddressprovider",
     "class/src/providers/address/AzureAddressProvider.js~AzureAddressProvider.html",
     "<span>AzureAddressProvider</span> <span class=\"search-result-import-path\">formiojs/src/providers/address/AzureAddressProvider.js</span>",
@@ -400,6 +484,30 @@ window.esdocSearchIndex = [
     "variable/index.html#static-variable-KEY_CODES",
     "<span>KEY_CODES</span> <span class=\"search-result-import-path\">formiojs/src/utils/ChoicesWrapper.js</span>",
     "variable"
+  ],
+  [
+    "formiojs/src/components/latviacomponents/legalpersonname/legalpersonname.form.js~legalpersonname",
+    "function/index.html#static-function-LegalPersonName",
+    "<span>LegalPersonName</span> <span class=\"search-result-import-path\">formiojs/src/components/latviaComponents/legalPersonName/LegalPersonName.form.js</span>",
+    "function"
+  ],
+  [
+    "formiojs/src/components/latviacomponents/legalpersonname/legalpersonname.js~legalpersonnamecomponent",
+    "class/src/components/latviaComponents/legalPersonName/LegalPersonName.js~LegalPersonNameComponent.html",
+    "<span>LegalPersonNameComponent</span> <span class=\"search-result-import-path\">formiojs/src/components/latviaComponents/legalPersonName/LegalPersonName.js</span>",
+    "class"
+  ],
+  [
+    "formiojs/src/components/latviacomponents/legalpersonregnumber/legalpersonregnumber.form.js~legalpersonregnumber",
+    "function/index.html#static-function-LegalPersonRegNumber",
+    "<span>LegalPersonRegNumber</span> <span class=\"search-result-import-path\">formiojs/src/components/latviaComponents/legalPersonRegNumber/LegalPersonRegNumber.form.js</span>",
+    "function"
+  ],
+  [
+    "formiojs/src/components/latviacomponents/legalpersonregnumber/legalpersonregnumber.js~legalpersonregnumbercomponent",
+    "class/src/components/latviaComponents/legalPersonRegNumber/LegalPersonRegNumber.js~LegalPersonRegNumberComponent.html",
+    "<span>LegalPersonRegNumberComponent</span> <span class=\"search-result-import-path\">formiojs/src/components/latviaComponents/legalPersonRegNumber/LegalPersonRegNumber.js</span>",
+    "class"
   ],
   [
     "formiojs/src/utils/conditionoperators/lessthan.js~lessthan",
@@ -4474,6 +4582,222 @@ window.esdocSearchIndex = [
     "file/src/components/index.js.html",
     "src/components/index.js",
     "file"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonaddress/authorizedpersonaddress.form.js",
+    "file/src/components/latviaComponents/authorizedPersonAddress/AuthorizedPersonAddress.form.js.html",
+    "src/components/latviaComponents/authorizedPersonAddress/AuthorizedPersonAddress.form.js",
+    "file"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonaddress/authorizedpersonaddress.js",
+    "file/src/components/latviaComponents/authorizedPersonAddress/AuthorizedPersonAddress.js.html",
+    "src/components/latviaComponents/authorizedPersonAddress/AuthorizedPersonAddress.js",
+    "file"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonaddress/authorizedpersonaddress.js~authorizedpersonaddresscomponent.builderinfo",
+    "class/src/components/latviaComponents/authorizedPersonAddress/AuthorizedPersonAddress.js~AuthorizedPersonAddressComponent.html#static-get-builderInfo",
+    "src/components/latviaComponents/authorizedPersonAddress/AuthorizedPersonAddress.js~AuthorizedPersonAddressComponent.builderInfo",
+    "member"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonaddress/authorizedpersonaddress.js~authorizedpersonaddresscomponent.schema",
+    "class/src/components/latviaComponents/authorizedPersonAddress/AuthorizedPersonAddress.js~AuthorizedPersonAddressComponent.html#static-method-schema",
+    "src/components/latviaComponents/authorizedPersonAddress/AuthorizedPersonAddress.js~AuthorizedPersonAddressComponent.schema",
+    "method"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonbankaccount/authorizedpersonbankaccount.form.js",
+    "file/src/components/latviaComponents/authorizedPersonBankAccount/AuthorizedPersonBankAccount.form.js.html",
+    "src/components/latviaComponents/authorizedPersonBankAccount/AuthorizedPersonBankAccount.form.js",
+    "file"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonbankaccount/authorizedpersonbankaccount.js",
+    "file/src/components/latviaComponents/authorizedPersonBankAccount/AuthorizedPersonBankAccount.js.html",
+    "src/components/latviaComponents/authorizedPersonBankAccount/AuthorizedPersonBankAccount.js",
+    "file"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonbankaccount/authorizedpersonbankaccount.js~authorizedpersonbankaccountcomponent.builderinfo",
+    "class/src/components/latviaComponents/authorizedPersonBankAccount/AuthorizedPersonBankAccount.js~AuthorizedPersonBankAccountComponent.html#static-get-builderInfo",
+    "src/components/latviaComponents/authorizedPersonBankAccount/AuthorizedPersonBankAccount.js~AuthorizedPersonBankAccountComponent.builderInfo",
+    "member"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonbankaccount/authorizedpersonbankaccount.js~authorizedpersonbankaccountcomponent.schema",
+    "class/src/components/latviaComponents/authorizedPersonBankAccount/AuthorizedPersonBankAccount.js~AuthorizedPersonBankAccountComponent.html#static-method-schema",
+    "src/components/latviaComponents/authorizedPersonBankAccount/AuthorizedPersonBankAccount.js~AuthorizedPersonBankAccountComponent.schema",
+    "method"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonemail/authorizedpersonemail.form.js",
+    "file/src/components/latviaComponents/authorizedPersonEmail/AuthorizedPersonEmail.form.js.html",
+    "src/components/latviaComponents/authorizedPersonEmail/AuthorizedPersonEmail.form.js",
+    "file"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonemail/authorizedpersonemail.js",
+    "file/src/components/latviaComponents/authorizedPersonEmail/AuthorizedPersonEmail.js.html",
+    "src/components/latviaComponents/authorizedPersonEmail/AuthorizedPersonEmail.js",
+    "file"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonemail/authorizedpersonemail.js~authorizedpersonemailcomponent.builderinfo",
+    "class/src/components/latviaComponents/authorizedPersonEmail/AuthorizedPersonEmail.js~AuthorizedPersonEmailComponent.html#static-get-builderInfo",
+    "src/components/latviaComponents/authorizedPersonEmail/AuthorizedPersonEmail.js~AuthorizedPersonEmailComponent.builderInfo",
+    "member"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonemail/authorizedpersonemail.js~authorizedpersonemailcomponent.schema",
+    "class/src/components/latviaComponents/authorizedPersonEmail/AuthorizedPersonEmail.js~AuthorizedPersonEmailComponent.html#static-method-schema",
+    "src/components/latviaComponents/authorizedPersonEmail/AuthorizedPersonEmail.js~AuthorizedPersonEmailComponent.schema",
+    "method"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonfirstname/authorizedpersonfirstname.form.js",
+    "file/src/components/latviaComponents/authorizedPersonFirstName/AuthorizedPersonFirstName.form.js.html",
+    "src/components/latviaComponents/authorizedPersonFirstName/AuthorizedPersonFirstName.form.js",
+    "file"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonfirstname/authorizedpersonfirstname.js",
+    "file/src/components/latviaComponents/authorizedPersonFirstName/AuthorizedPersonFirstName.js.html",
+    "src/components/latviaComponents/authorizedPersonFirstName/AuthorizedPersonFirstName.js",
+    "file"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonfirstname/authorizedpersonfirstname.js~authorizedpersonfirstnamecomponent.builderinfo",
+    "class/src/components/latviaComponents/authorizedPersonFirstName/AuthorizedPersonFirstName.js~AuthorizedPersonFirstNameComponent.html#static-get-builderInfo",
+    "src/components/latviaComponents/authorizedPersonFirstName/AuthorizedPersonFirstName.js~AuthorizedPersonFirstNameComponent.builderInfo",
+    "member"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonfirstname/authorizedpersonfirstname.js~authorizedpersonfirstnamecomponent.schema",
+    "class/src/components/latviaComponents/authorizedPersonFirstName/AuthorizedPersonFirstName.js~AuthorizedPersonFirstNameComponent.html#static-method-schema",
+    "src/components/latviaComponents/authorizedPersonFirstName/AuthorizedPersonFirstName.js~AuthorizedPersonFirstNameComponent.schema",
+    "method"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonlastname/authorizedpersonlastname.form.js",
+    "file/src/components/latviaComponents/authorizedPersonLastName/AuthorizedPersonLastName.form.js.html",
+    "src/components/latviaComponents/authorizedPersonLastName/AuthorizedPersonLastName.form.js",
+    "file"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonlastname/authorizedpersonlastname.js",
+    "file/src/components/latviaComponents/authorizedPersonLastName/AuthorizedPersonLastName.js.html",
+    "src/components/latviaComponents/authorizedPersonLastName/AuthorizedPersonLastName.js",
+    "file"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonlastname/authorizedpersonlastname.js~authorizedpersonlastnamecomponent.builderinfo",
+    "class/src/components/latviaComponents/authorizedPersonLastName/AuthorizedPersonLastName.js~AuthorizedPersonLastNameComponent.html#static-get-builderInfo",
+    "src/components/latviaComponents/authorizedPersonLastName/AuthorizedPersonLastName.js~AuthorizedPersonLastNameComponent.builderInfo",
+    "member"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonlastname/authorizedpersonlastname.js~authorizedpersonlastnamecomponent.schema",
+    "class/src/components/latviaComponents/authorizedPersonLastName/AuthorizedPersonLastName.js~AuthorizedPersonLastNameComponent.html#static-method-schema",
+    "src/components/latviaComponents/authorizedPersonLastName/AuthorizedPersonLastName.js~AuthorizedPersonLastNameComponent.schema",
+    "method"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonpersonalcode/authorizedpersonpersonalcode.form.js",
+    "file/src/components/latviaComponents/authorizedPersonPersonalCode/AuthorizedPersonPersonalCode.form.js.html",
+    "src/components/latviaComponents/authorizedPersonPersonalCode/AuthorizedPersonPersonalCode.form.js",
+    "file"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonpersonalcode/authorizedpersonpersonalcode.js",
+    "file/src/components/latviaComponents/authorizedPersonPersonalCode/AuthorizedPersonPersonalCode.js.html",
+    "src/components/latviaComponents/authorizedPersonPersonalCode/AuthorizedPersonPersonalCode.js",
+    "file"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonpersonalcode/authorizedpersonpersonalcode.js~authorizedpersonpersonalcodecomponent.builderinfo",
+    "class/src/components/latviaComponents/authorizedPersonPersonalCode/AuthorizedPersonPersonalCode.js~AuthorizedPersonPersonalCodeComponent.html#static-get-builderInfo",
+    "src/components/latviaComponents/authorizedPersonPersonalCode/AuthorizedPersonPersonalCode.js~AuthorizedPersonPersonalCodeComponent.builderInfo",
+    "member"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonpersonalcode/authorizedpersonpersonalcode.js~authorizedpersonpersonalcodecomponent.schema",
+    "class/src/components/latviaComponents/authorizedPersonPersonalCode/AuthorizedPersonPersonalCode.js~AuthorizedPersonPersonalCodeComponent.html#static-method-schema",
+    "src/components/latviaComponents/authorizedPersonPersonalCode/AuthorizedPersonPersonalCode.js~AuthorizedPersonPersonalCodeComponent.schema",
+    "method"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonphonenumber/authorizedpersonphone.form.js",
+    "file/src/components/latviaComponents/authorizedPersonPhoneNumber/AuthorizedPersonPhone.form.js.html",
+    "src/components/latviaComponents/authorizedPersonPhoneNumber/AuthorizedPersonPhone.form.js",
+    "file"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonphonenumber/authorizedpersonphone.js",
+    "file/src/components/latviaComponents/authorizedPersonPhoneNumber/AuthorizedPersonPhone.js.html",
+    "src/components/latviaComponents/authorizedPersonPhoneNumber/AuthorizedPersonPhone.js",
+    "file"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonphonenumber/authorizedpersonphone.js~authorizedpersonphonecomponent.builderinfo",
+    "class/src/components/latviaComponents/authorizedPersonPhoneNumber/AuthorizedPersonPhone.js~AuthorizedPersonPhoneComponent.html#static-get-builderInfo",
+    "src/components/latviaComponents/authorizedPersonPhoneNumber/AuthorizedPersonPhone.js~AuthorizedPersonPhoneComponent.builderInfo",
+    "member"
+  ],
+  [
+    "src/components/latviacomponents/authorizedpersonphonenumber/authorizedpersonphone.js~authorizedpersonphonecomponent.schema",
+    "class/src/components/latviaComponents/authorizedPersonPhoneNumber/AuthorizedPersonPhone.js~AuthorizedPersonPhoneComponent.html#static-method-schema",
+    "src/components/latviaComponents/authorizedPersonPhoneNumber/AuthorizedPersonPhone.js~AuthorizedPersonPhoneComponent.schema",
+    "method"
+  ],
+  [
+    "src/components/latviacomponents/legalpersonname/legalpersonname.form.js",
+    "file/src/components/latviaComponents/legalPersonName/LegalPersonName.form.js.html",
+    "src/components/latviaComponents/legalPersonName/LegalPersonName.form.js",
+    "file"
+  ],
+  [
+    "src/components/latviacomponents/legalpersonname/legalpersonname.js",
+    "file/src/components/latviaComponents/legalPersonName/LegalPersonName.js.html",
+    "src/components/latviaComponents/legalPersonName/LegalPersonName.js",
+    "file"
+  ],
+  [
+    "src/components/latviacomponents/legalpersonname/legalpersonname.js~legalpersonnamecomponent.builderinfo",
+    "class/src/components/latviaComponents/legalPersonName/LegalPersonName.js~LegalPersonNameComponent.html#static-get-builderInfo",
+    "src/components/latviaComponents/legalPersonName/LegalPersonName.js~LegalPersonNameComponent.builderInfo",
+    "member"
+  ],
+  [
+    "src/components/latviacomponents/legalpersonname/legalpersonname.js~legalpersonnamecomponent.schema",
+    "class/src/components/latviaComponents/legalPersonName/LegalPersonName.js~LegalPersonNameComponent.html#static-method-schema",
+    "src/components/latviaComponents/legalPersonName/LegalPersonName.js~LegalPersonNameComponent.schema",
+    "method"
+  ],
+  [
+    "src/components/latviacomponents/legalpersonregnumber/legalpersonregnumber.form.js",
+    "file/src/components/latviaComponents/legalPersonRegNumber/LegalPersonRegNumber.form.js.html",
+    "src/components/latviaComponents/legalPersonRegNumber/LegalPersonRegNumber.form.js",
+    "file"
+  ],
+  [
+    "src/components/latviacomponents/legalpersonregnumber/legalpersonregnumber.js",
+    "file/src/components/latviaComponents/legalPersonRegNumber/LegalPersonRegNumber.js.html",
+    "src/components/latviaComponents/legalPersonRegNumber/LegalPersonRegNumber.js",
+    "file"
+  ],
+  [
+    "src/components/latviacomponents/legalpersonregnumber/legalpersonregnumber.js~legalpersonregnumbercomponent.builderinfo",
+    "class/src/components/latviaComponents/legalPersonRegNumber/LegalPersonRegNumber.js~LegalPersonRegNumberComponent.html#static-get-builderInfo",
+    "src/components/latviaComponents/legalPersonRegNumber/LegalPersonRegNumber.js~LegalPersonRegNumberComponent.builderInfo",
+    "member"
+  ],
+  [
+    "src/components/latviacomponents/legalpersonregnumber/legalpersonregnumber.js~legalpersonregnumbercomponent.schema",
+    "class/src/components/latviaComponents/legalPersonRegNumber/LegalPersonRegNumber.js~LegalPersonRegNumberComponent.html#static-method-schema",
+    "src/components/latviaComponents/legalPersonRegNumber/LegalPersonRegNumber.js~LegalPersonRegNumberComponent.schema",
+    "method"
   ],
   [
     "src/components/number/number.form.js",

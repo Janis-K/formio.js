@@ -41,6 +41,16 @@ import TreeForm from './tree/Tree.form';
 import UnknownForm from './unknown/Unknown.form';
 import UrlForm from './url/Url.form';
 import WellForm from './well/Well.form';
+import AuthorizedPersonFirstNameForm from './latviaComponents/authorizedPersonFirstName/AuthorizedPersonFirstName.form';
+import AuthorizedPersonLastNameForm from './latviaComponents/authorizedPersonLastName/AuthorizedPersonLastName.form';
+import AuthorizedPersonPersonalCodeForm from './latviaComponents/authorizedPersonPersonalCode/AuthorizedPersonPersonalCode.form';
+import AuthorizedPersonBankAccountForm from './latviaComponents/authorizedPersonBankAccount/AuthorizedPersonBankAccount.form';
+import AuthorizedPersonAddress from './latviaComponents/authorizedPersonAddress/AuthorizedPersonAddress.form';
+import AuthorizedPersonEmailForm from './latviaComponents/authorizedPersonEmail/AuthorizedPersonEmail.form';
+import AuthorizedPersonPhoneForm from './latviaComponents/authorizedPersonPhoneNumber/AuthorizedPersonPhone.form';
+import LatviaLegalEntityNameFieldForm from './latviaComponents/legalPersonName/LegalPersonName.form';
+import LatviaLegalEntityRegNumberFieldForm
+    from './latviaComponents/legalPersonRegNumber/LegalPersonRegNumber.form';
 
 Components.address.editForm = AddressForm;
 Components.button.editForm = ButtonForm;
@@ -84,5 +94,15 @@ Components.tree.editForm = TreeForm;
 Components.unknown.editForm = UnknownForm;
 Components.url.editForm = UrlForm;
 Components.well.editForm = WellForm;
+
+Components.authorizedPersonFirstName.editForm = AuthorizedPersonFirstNameForm;
+Components.authorizedPersonLastName.editForm = AuthorizedPersonLastNameForm;
+Components.authorizedPersonPersonalCode.editForm = AuthorizedPersonPersonalCodeForm;
+Components.authorizedPersonAddress.editForm = AuthorizedPersonAddress;
+Components.authorizedPersonBankAccount.editForm = AuthorizedPersonBankAccountForm;
+Components.authorizedPersonEmail.editForm = AuthorizedPersonEmailForm;
+Components.authorizedPersonPhone.editForm = AuthorizedPersonPhoneForm;
+Components.legalPersonName.editForm = LatviaLegalEntityNameFieldForm;
+Components.legalPersonRegNumber.editForm = LatviaLegalEntityRegNumberFieldForm;
 
 export default Components;
